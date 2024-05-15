@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MENU';
+    src: url('../fontes/EVELETH.OTF') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+
+    /*Tipos de formats:
+    -Opentype (otf)
+    -truetype (ttf)
+    -embedded-opentype
+    -truetype-aat (Apple advanced Typography)
+    -svg */
+}
+
+
+body{
+    background-color: #B32E18;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #ffd3cd;
+    padding: 0px;
+    margin: 0px;
+}
+
+header > h1{
+    font-family: 'MENU';
+    padding: 20px;
+    font-size: 3em;
+    text-align: center;
+    color: #951d08;
+    font-weight: bolder;
+}
+header > nav{
+    color: white;
+    background-color: #33120C;
+    padding: 5px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header > nav > a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > a:hover{
+    color: yellow;
+    transition-duration: .25s;
+}
+ 
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 10PX auto;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 12px ;
+}
+
+main > img{
+    width: 100%;
+    display: block;
+    margin: 150px 150px;
+}
+
+
+main > div{
+    margin: 40px 15px;
+    background-color: white;
+    height: 600px;
+    width: 350px;
+    border-radius: 12px ;
+}
+
+main>div> img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px ;
+}
+
+main > div > h1{
+    font-size: 1.6em;
+    text-align: center;
+    padding: 10px;
+}
+
+main > div > ul{
+    font-size: 1.2em;
+    padding: 20px 80px;
+}
+
+.centralizar{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+footer{
+    position: fixed;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height:30px;
+    width:100%;
+    left:0;
+    bottom:0;
+    
+
+}
