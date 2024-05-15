@@ -82,6 +82,12 @@ main > div{
     border-radius: 12px ;
 }
 
+main > div:hover{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    transition-duration: 0.3s;
+}
+
 main>div> img{
     width: 100%;
     border-top-left-radius: 12px;
