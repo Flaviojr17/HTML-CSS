@@ -59,7 +59,7 @@ main{
 
 
 main > picture > img{
-    margin-top: 40px;
+    margin-top: 50px;
     width:100%;
 }
 
@@ -119,4 +119,5 @@ footer{
     color: #fff;
     text-align: center;
     padding: 2px 0px;
+    margin-bottom: 0px;
 }
