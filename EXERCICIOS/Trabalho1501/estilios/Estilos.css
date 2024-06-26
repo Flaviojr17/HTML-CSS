@@ -53,7 +53,7 @@ header > nav > a:hover{
 main{
     display: flex;
     justify-content: center;
-    margin: 70PX 20px 70px 20px;
+    margin: 20PX 20px 70px 20px;
     flex-wrap: wrap;
 }
 
