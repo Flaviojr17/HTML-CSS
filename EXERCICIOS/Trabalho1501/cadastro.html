@@ -11,7 +11,7 @@
 
     <body>
             <header>
-                <h1>MENU</h1>
+                <label>MENU</label>
                 <nav>
                     <a href="Home.html">Home</a>
                     <a href="receitas.html">Receitas</a>
@@ -21,12 +21,39 @@
 
             <main>
                 <form action="processa_post">
+
+                    <h1>Preencha Com seus dados</h1>
+
                     <label for="nome">Nome:</label><br>
                     <input type="text" minlength="3" id="nome" name="nome" required>
                     <br>
 
-                    <label for="birthday">Data de Nascimento:</label><br>
-                    <input type="date" id="birthday" name="birthday" checked class="data"><br><br>
+                    <label for="birthday" class="data_nasc">Data de Nascimento:</label>
+                    <br>
+                    <input type="date" id="birthday" name="birthday" checked class="data"><br>
+
+                    <label for="Cpf"> CPF: </label> <br>
+                    <input type="numer" name="CPF" checked class="CPF">
+                    <br>
+
+                    <label for="Sexo">Sexo:</label><br>
+                    <div>
+                        <input type="Radio"
+                        name="sex_esc" value="MASCULINO" class="mult_esc">
+                        <label for="Masculino">Masculino</label>
+                        <br>
+                        <input type="Radio"
+                        name="sex_esc" value="Feminino" class="mult_esc">
+                        <label for="Feminino">Feminino</label>
+                        <br>
+                        <input type="Radio"
+                        name="sex_esc" value="outro" class="mult_esc">
+                        <label for="Outro">Outro </label>
+                        <br>
+                    </div>
+
+                    <label for="e-mail">E-mail:</label> <br>
+                    <input type="text" name="e-mail" checked required>
                 </form>
 
                 

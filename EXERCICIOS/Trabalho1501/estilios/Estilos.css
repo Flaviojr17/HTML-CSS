@@ -18,13 +18,14 @@ header{
     background-color: #ffd3cd;
 }
 
-header > h1{
+header > label{
     font-family: 'MENU';
     margin: 0px;
     padding: 20px;
     font-size: 3em;
-    text-align: center;
+    justify-content: center;
     color: #951d08;
+    display: flex;
     font-weight: bolder;
 }
 header > nav{
@@ -106,6 +107,7 @@ main > div > ul{
 main > div > p{
     margin-top: 10px;
 }
+
 .centralizar{
     font-size: 1.5em;
     text-align: center;
@@ -113,27 +115,43 @@ main > div > p{
 }
 
 form{
+    width: 100%;
+    max-width: 700px;
     border-radius: 10px;
-    padding: 50px 150px 50px 150px;
+    padding: 50px 80px 50px 100px;
     background-color: white;
 }
 
 label{
-    font-size: 2em;
+    font-size: 1.5em;
     padding-top: 40px;
 }
 
 input{
     border-radius: 10px;
     font-size: 1.4em;
-    display: block;
-    min-width: 470px;
-    min-height: 50px;
-    margin-bottom: 40px;
+    min-width: 30px;
+    min-height: 35px;
+    margin-bottom: 30px;
 }
 
 .data{
     min-width: 100px;
+}
+
+form>div>input{
+    background-color: aqua;
+    min-height: 15px;
+    margin-bottom: 15px;
+}
+
+form>div>label{
+    font-size: 1.2em;
+
+}
+
+form>div{
+    margin-bottom: 20px;
 }
 
 footer{
