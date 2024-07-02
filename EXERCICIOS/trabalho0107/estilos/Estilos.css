@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MENU';
+    src: url('../fontes/EVELETH.OTF') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    max-height: 100hv;
+    background-color: #B32E18;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: #ffd3cd;
+}
+
+header > label{
+    font-family: 'MENU';
+    margin: 0px;
+    padding: 20px;
+    font-size: 3em;
+    justify-content: center;
+    color: #951d08;
+    display: flex;
+    font-weight: bolder;
+}
+header > nav{
+    background-color: #33120C;
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header > nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > a:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: yellow;
+    transition-duration: .20s;
+    background-color: #951d08;
+    border-radius: 5px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}

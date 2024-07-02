@@ -1,0 +1,21 @@
+@charset "UTF=8";
+
+main{
+    justify-content: center;
+    margin: 60PX 20px 70px 20px;
+}
+
+
+main > picture > img{
+    margin: auto;
+    margin-top: 10px;
+    width:100%;
+}
+
+main > h1{
+font-size: 3em;
+text-align: center;
+color: white;
+margin: 20px;
+margin-bottom: 50px;
+}
