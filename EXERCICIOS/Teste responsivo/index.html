@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --cor1: #cecece;
+            --cor2: #666666;
+            
+
+        }
+
+        body{
+            margin: 0px;
+        }
+        
+        header{
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            background-color: var(--cor1);
+            color: var(--cor2);
+            
+        }
+
+
+        nav>a{
+            text-align: center;
+            width:30%;
+            background-color: var(--cor1);
+            color: var(--cor2);
+            margin: 10px;
+        }
+
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        main > div{
+            margin: auto;
+            width: 30%;
+            background-color: var(--cor1);
+            color: var(--cor2);
+            padding: 15px;
+        }
+
+        @media only screen and (max-width: 900px) {
+            main > div{
+                margin: 5px auto 5px auto;
+                min-width: 90%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>menu</h1>
+    </header>
+
+    <main>
+
+        <div>
+            <h1>Lorem Ipsim</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint ipsam sequi iure eligendi quas. Reiciendis, repellat porro. Adipisci, sunt nesciunt? Fugiat neque ipsam sapiente aperiam dolore, est optio maxime?</p>
+        </div>
+
+        <div>
+            <h1>Lorem Ipsim</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint ipsam sequi iure eligendi quas. Reiciendis, repellat porro. Adipisci, sunt nesciunt? Fugiat neque ipsam sapiente aperiam dolore, est optio maxime?</p>
+        </div>
+
+        <div>
+            <h1>Lorem Ipsim</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint ipsam sequi iure eligendi quas. Reiciendis, repellat porro. Adipisci, sunt nesciunt? Fugiat neque ipsam sapiente aperiam dolore, est optio maxime?</p>
+        </div>
+
+    </main>
+
+    <div>
+        <h1>About</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic nihil minima molestias voluptates porro quasi, quaerat eum iure minus ratione cum deserunt labore quam, adipisci veritatis atque tempore deleniti magni?</p>
+    </div>
+
+    <footer><p>@flaviosalafia</p></footer>
+</body>
+</html>
